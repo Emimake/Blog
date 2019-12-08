@@ -25,7 +25,7 @@ SECRET_KEY = '-$4bor-2=pw4&xsdh*8xqnz+e4$5@8lcm!=(n@2-f61*p-5vla'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.mindpatrons.com']
 
 
 # Application definition
