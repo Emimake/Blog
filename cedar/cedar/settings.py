@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-$4bor-2=pw4&xsdh*8xqnz+e4$5@8lcm!=(n@2-f61*p-5vla'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['www.mindpatrons.com']
 
