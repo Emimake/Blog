@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-$4bor-2=pw4&xsdh*8xqnz+e4$5@8lcm!=(n@2-f61*p-5vla'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['www.mindpatrons.com']
 
@@ -136,7 +136,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL  = '/media/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'blog')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
 
